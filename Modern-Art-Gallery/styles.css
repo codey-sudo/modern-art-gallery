@@ -1,0 +1,172 @@
+
+/* BASE STYLES */
+
+:root {
+
+  /* colours */
+    --whiskey: #D5966C;
+    --cinder: #151515;
+    --black-eel: #444444;
+    --white: #fff;
+
+  /* typography */
+  
+ --main-font-family: "outfit", sans-serif;
+ --main-font-size-med: 1.375rem;
+ --main-font-weight-med: 400;
+ --main-line-height-med: 2rem;
+ 
+
+ --main-font-size-sm: 1.125rem;
+ --main-font-weight-sm: 200;
+ --main-line-height-sm: 1.75rem;
+
+ --font-family-accent: 'Big Shoulders Display', sans-serif;
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  button {
+    border: initial;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+  body {
+    font-family: var(--main-font-family);
+    font-weight: var(--main-font-weight-sm);
+    font-size: var(--main-font-size-sm);
+    
+    
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-family-accent);
+  }
+
+  .gallery {
+    row-gap: 1.5rem;
+  }
+
+  .gallery__top {
+    display: flex;
+  }
+
+  .gallery__title--large {
+    
+    z-index: 300;
+    font-size: 5rem;
+    row-gap: 2rem;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 5.5rem;
+    white-space: nowrap;
+    color: white;
+    margin-left: -23rem;
+    color:var(--cinder);
+    mix-blend-mode: difference;
+    
+  }
+  .gallery__text {
+    
+    color:var(--black-eel);
+
+  }
+
+  .gallery__subtitle {
+    line-height: 1.65rem;
+    font-weight: 700;
+  }
+  
+  /*.gallery__top-container {
+    display: flex;
+    align-items: stretch;
+    padding-bottom: 10%;
+    
+  }*/
+
+  
+  
+  
+  
+
+  .gallery__img1 {
+  
+  
+  height: 50rem; 
+  width: 9rem;
+  z-index: -2;
+  /*background: rgba(88, 88, 88, 0.2); */
+
+  }
+
+  .gallery__black-block {
+    /*flex: 1;*/
+    background-color: #151515;
+    height: 50rem;
+    width: 35%;
+    
+
+
+  }
+
+  .gallery__top {
+    /*display: flex;*/
+    
+  }
+
+  .hero-content {
+    display: flex;
+    padding-top: 11.813rem;
+    
+  }
+
+  .hero-cta {
+    margin-left: 160px;
+    
+  }
+
+  .gallery__text--top {
+      width: 250px;
+      /*position: absolute;*/
+      text-align: left;
+      left: 62rem;
+      top: 12rem;
+  
+  }
+  
+
+
+  
+
+ 
