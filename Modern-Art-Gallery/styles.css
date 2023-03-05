@@ -163,6 +163,8 @@
   
     .gallery__text--middle {
         width: 350px;
+        font-family: "Open sans", sans-serif;
+        font-size: 22px;
     }
 
     /* CTA-HERO-BUTTON */
