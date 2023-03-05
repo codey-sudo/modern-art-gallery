@@ -102,8 +102,10 @@
     }
   
     .gallery__subtitle {
-      line-height: 1.65rem;
-      font-weight: 700;
+      line-height: 3.65rem;
+      font-weight: 800;
+      font-size: 3.75rem;
+      padding-bottom: 3rem;
     }
   
     /*.gallery__top-container {
@@ -113,19 +115,15 @@
       
     }*/
   
-  
-  
+
   
   
   
     .gallery__img1 {
-  
-  
     height: 50rem; 
     width: 9rem;
     z-index: -2;
     /*background: rgba(88, 88, 88, 0.2); */
-  
     }
   
     .gallery__black-block {
@@ -163,6 +161,10 @@
         padding-bottom: 71px;
     }
   
+    .gallery__text--middle {
+        width: 350px;
+    }
+
     /* CTA-HERO-BUTTON */
   
     .css-button {
