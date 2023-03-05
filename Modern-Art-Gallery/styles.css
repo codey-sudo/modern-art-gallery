@@ -161,7 +161,7 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
       grid-gap: 10px;
-      padding: 180px 100px 30px 100px;
+      padding: 180px 165px 30px 165px;
     }
     
 
@@ -192,6 +192,7 @@
 
     .gallery__btm {
       display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 
     }
 
