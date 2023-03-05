@@ -92,7 +92,6 @@
       white-space: nowrap;
       color: white;
       margin-left: -23rem;
-      color:var(--cinder);
       mix-blend-mode: difference;
   
     }
@@ -134,8 +133,6 @@
       background-color: #151515;
       height: 50rem;
       width: 35%;
-  
-  
   
     }
   
