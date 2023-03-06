@@ -1,0 +1,79 @@
+/* BASE STYLES */
+
+:root {
+
+    /* colours */
+      --whiskey: #D5966C;
+      --cinder: #151515;
+      --black-eel: #444444;
+      --white: #fff;
+  
+    /* typography */
+  
+   --main-font-family: "outfit", sans-serif;
+   --main-font-size-med: 1.375rem;
+   --main-font-weight-med: 400;
+   --main-line-height-med: 2rem;
+  
+  
+   --main-font-size-sm: 1.125rem;
+   --main-font-weight-sm: 200;
+   --main-line-height-sm: 1.75rem;
+  
+   --font-family-accent: 'Big Shoulders Display', sans-serif
+  }
+  
+  /*
+    Josh's Custom CSS Reset
+    https://www.joshwcomeau.com/css/custom-css-reset/
+  */
+  
+  *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  
+    button {
+      border: initial;
+    }
+    html, body {
+      height: 100%;
+    }
+    body {
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    img, picture, video, canvas, svg {
+      display: block;
+  
+    }
+    input, button, textarea, select {
+      font: inherit;
+    }
+    p, h1, h2, h3, h4, h5, h6 {
+      overflow-wrap: break-word;
+    }
+    #root, #__next {
+      isolation: isolate;
+    }
+  
+  
+    body {
+      font-family: var(--main-font-family);
+      font-weight: var(--main-font-weight-sm);
+      font-size: var(--main-font-size-sm);
+  
+  
+    }
+  
+    h1, h2, h3 {
+      font-family: var(--font-family-accent);
+    }
+  
+
+    #map {
+        height: 600px;
+    }
