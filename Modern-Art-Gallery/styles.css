@@ -292,7 +292,14 @@
 
 
     /* CTA-HERO-BUTTON */
-  
+   
+    a {
+      color: #fff;
+    }
+    a:link { 
+      text-decoration: none;
+     }
+     
     .css-button {
   
       color: #FFFFFF;
