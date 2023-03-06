@@ -53,6 +53,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- fontawesome
 - [Styled Components](https://styled-components.com/) - For styles
 
 
@@ -90,7 +91,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [resource 1](https://www.layoutit.com/) - This helped me for building the css grid.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [resource 2](https://getcssscan.com/css-buttons-examples) - This site really helped me with getting some button styling inspiration. I did some modification for my buttons for this project. 
 
 ## Author
 
