@@ -161,7 +161,7 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
       grid-gap: 10px;
-      padding: 180px 165px 30px 165px;
+      margin: 180px 165px 30px 165px;
     }
     
 
@@ -192,9 +192,104 @@
 
     .gallery__btm {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-
+      grid-template-columns: 1.2fr 0.8fr;
+      grid-template-rows: 0.6fr 0.9fr;
+      grid-gap: 30px;
+      margin: 0px 165px 180px 165px;
+      grid-template-areas: 
+      "gallery__img3 gallery__img4"
+      "gallery__img3 gallery__btm--content";
     }
+    
+    .gallery__img3 {
+      grid-area: gallery__img3;
+    }
+    .gallery__img4 {
+      grid-area: gallery__img4;
+      
+    }
+
+    picture.gallery__img4 > img {
+      width: 410px;
+    }
+
+
+    .gallery__btm--content {
+      grid-area: gallery__btm--content;
+      padding-left: 40px;
+      background-color: #151515;
+      height: 400px;
+      width: 410px;
+    }
+
+    .gallery__btm--content, .gallery__img4 {
+      
+    }
+    
+    .gallery__subtitle--btm {
+      color: #fff;
+      line-height: 3.65rem;
+      font-weight: 900;
+      font-size: 3.5rem; 
+      padding-top: 4rem;
+      padding-bottom: 2rem;
+    }
+
+    .gallery__text--btm {
+      color: #fff;
+      font-family: "Open sans", sans-serif;
+      font-size: 22px;
+      width: 300px;
+    }
+
+
+   /* FOOTER */
+   
+   footer {
+    background:#151515;
+   }
+
+   .footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 165px;
+   }
+   
+   .gallery__title--small {
+     color:#fff;
+     line-height: 2rem;
+     font-size: 36px;
+     font-weight: 800;
+     padding-right: 180px;
+     margin-right: -20px;
+     margin-left: -10px;
+   }
+
+   .gallery__text-small {
+    color: #fff;
+    font-family: "Open sans", sans-serif;
+    padding-right: 220px;
+   }
+
+   .social-icons {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 5px;
+   }
+
+   .facebook {
+    padding-right: 10px;
+   }
+
+   .instagram {
+    padding-right: 10px;
+   }
+
+   .twitter {
+    padding-right: 5px;
+   }
+
 
     /* CTA-HERO-BUTTON */
   
