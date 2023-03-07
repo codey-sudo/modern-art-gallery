@@ -78,6 +78,7 @@
 
     #map {
         height: 600px;
+        position: relative;
     }
 
 
@@ -107,7 +108,9 @@
       padding: 5 0 0 6px;
       border: 0;
       box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-      margin-left: 10px;
+      margin-left: 8.5rem;
+      top: -37.5rem;
+      z-index: 1000;
       
   }
 
@@ -141,4 +144,11 @@
   .css-button-icon2:hover::after {
       content: "";
       background:  #D5966C;
+  }
+
+
+  /* MAIN SECTION */
+
+  .main {
+    height: 548px;
   }
