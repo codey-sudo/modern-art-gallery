@@ -79,6 +79,7 @@
     #map {
         height: 600px;
         position: relative;
+        z-index: -2;
     }
 
 
@@ -151,4 +152,7 @@
 
   .main {
     height: 548px;
+    background: #151515;
+    margin-top: -7rem;
   }
+
