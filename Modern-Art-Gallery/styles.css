@@ -222,9 +222,9 @@
       width: 410px;
     }
 
-    .gallery__btm--content, .gallery__img4 {
-      
-    }
+    
+    
+   
     
     .gallery__subtitle--btm {
       color: #fff;
@@ -269,7 +269,11 @@
    .gallery__text-small {
     color: #fff;
     font-family: "Open sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
     padding-right: 220px;
+    padding-top: 1rem;
+
    }
 
    .social-icons {
@@ -279,14 +283,17 @@
    }
 
    .facebook {
+    
     padding-right: 10px;
    }
 
    .instagram {
+    
     padding-right: 10px;
    }
 
    .twitter {
+    
     padding-right: 5px;
    }
 

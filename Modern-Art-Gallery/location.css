@@ -79,7 +79,7 @@
     #map {
         height: 600px;
         position: relative;
-        z-index: -2;
+        z-index: 2;
     }
 
 
@@ -156,3 +156,93 @@
     margin-top: -7rem;
   }
 
+  h1.main-header {
+    display: inline-block;
+    font-family: "Big shoulders display", cursive;
+    font-size: 4.375rem;
+    font-weight: 800;
+    line-height: 70px;
+    color:#fff;
+    padding-top: 10rem;
+    padding-left: 165px;
+  }
+
+  .postal-address {
+    float: right;
+    padding-top: 10rem;
+    padding-right: 165px;
+  }
+
+  h2.street-name {
+    color:#D5966C;
+    font-family: "Big shoulders display", cursive;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 24px;
+  }
+
+  .address {
+    color: #FFFFFF;
+    padding-bottom: 24px;
+  }
+
+  .text {
+    color: #fff;
+  }
+
+  footer {
+    background:#D5966C;
+   }
+
+   .footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 165px;
+   }
+
+   .gallery__title--small {
+    color:#151515;
+    line-height: 2rem;
+    font-size: 36px;
+    font-weight: 900;
+    padding-right: 180px;
+    margin-right: -20px;
+    margin-left: -10px;
+  }
+
+  .gallery__text-small {
+    color: #151515;
+    font-family: "Open sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-right: 220px;
+    padding-top: 1rem;
+   }
+
+   .social-icons {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 5px;
+    
+   }
+  
+   .filter-black {
+    filter: brightness(0) saturate(100%) invert(0%) sepia(14%) saturate(4269%) hue-rotate(23deg) brightness(93%) contrast(84%);
+   }
+
+   img.facebook {
+    
+    padding-right: 10px;
+   }
+
+   img.instagram {
+    
+    padding-right: 10px;
+   }
+   img.twitter {
+    
+    padding-right: 5px;
+   }
