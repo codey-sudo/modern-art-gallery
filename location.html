@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800;900&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  
+  <!-- LEAFLET.JS FOR MAP -->
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+  <script src="https://kit.fontawesome.com/c6391dd316.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="location.css">
+  <title>Frontend Mentor | Art gallery website</title>
+</head>
+<body>
+  
+  
+  <div id="map"></div>
+     <button type="button" class="css-button2">
+         <span class="css-button-icon2">
+             <i class="fa fa-chevron-left"></i>
+     	</span>
+     	
+         <span class="css-button-text2">
+     		<span><a href="./index.html">BACK TO HOME</a></span>
+     	</span>
+     </button>
+<section class="main"> 
+  <h1 class="main-header"> OUR <br> LOCATION </h1>
+    <div class="postal-address">
+    <h2 class="street-name"> 99 King Street </h2> 
+       <p class="address"> 
+        Newport <br>
+        RI 02840 <br>
+        United States of America
+       </p>
+
+       <div class="text">
+        Our newly opened gallery is located near the Edward <br> 
+        King House on 99 Street, the Modern Art Gallery is <br> 
+        free to all visitors and open seven a week from 8am to 9pm.
+    </div>
+   </div>  
+</section>
+
+
+
+<footer class="footer-wrapper">
+  <img src="./assets/logo-dark.svg" 
+  alt="gallery-logo" class="logo">  
+
+     <p class="gallery__text-small">The Modern Art Gallery is
+    free to all visitors and open <br> seven days a week 
+     from 8am to 9pm. Find us at 99 <br> King Street, Newpor
+    USA.
+    </p>
+
+    <div class="social-icons">
+      <img src="./assets/icon-facebook.svg" 
+      alt="facebook-logo" class="facebook filter-black">
+      <img src="./assets/icon-instagram.svg" 
+    alt="Instagram-logo" class="instagram filter-black" >
+      <img src="./assets/icon-twitter.svg" alt="Twitter-logo" 
+    class="twitter filter-black">
+    </div>
+
+
+</footer>
+  
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>
