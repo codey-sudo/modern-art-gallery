@@ -56,6 +56,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - fontawesome
 - Leaflet.js
 - [Styled Components](https://styled-components.com/) - For styles
+- BEM CSS (attempted this method of organizing my code but it was hard to follow. So naming convention is half BEM and half normal.)
 
 
 
