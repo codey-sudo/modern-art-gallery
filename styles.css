@@ -520,6 +520,103 @@
     @media (max-width: 730px) {
       
     }
+    @media (max-width: 430px) {
+      .gallery__top {
+        flex-direction: column;
+        justify-content: center;
+      }
+      .gallery__img1 img {
+        width: 375px;
+        height: 16rem;
+        object-fit: cover;
+      }
+      .hero-content {
+        padding-top: 2.2rem;
+      }
+      .hero-cta {
+        margin-right: 2rem;
+      }
+      .gallery__title--large {
+        color: #151515;
+        mix-blend-mode: normal;
+        font-size: 52px;
+        line-height: 3rem;
+        margin-right: 5rem;
+      }
+      .gallery__text--top {
+        padding-top: 1.8rem;
+        padding-bottom: 2rem;
+        font-size: 1rem;
+        line-height: 1.75rem;
+      }
+
+      .gallery__body {
+        margin: 7rem 1rem;
+      }
+
+      .gallery__middle {
+        flex-direction: column-reverse;
+        gap: 1rem;
+      }
+      .gallery__middle--content {
+        margin-left: 0;
+      }
+      .gallery__btm {
+        flex-direction: column;
+      }
+      .gallery__subtitle {
+        line-height: 2rem;
+        font-size: 2.3rem;
+        padding-bottom: 1rem;
+      }
+
+      .gallery__middle--content {
+        padding-bottom: 1rem;
+      }
+
+      .gallery__btm--content {
+        padding-bottom: 4rem;
+        padding-left: 2rem;
+      }
+
+      .footer-wrapper {
+        flex-direction: column;
+        margin: 2rem 2rem;
+      }
+
+      .gallery__title--small {
+        line-height: 1.3rem;
+        font-size: 1.4rem;
+        padding-top: 1.5rem;
+        padding-right: 12%;
+        margin-right: 52%;
+        margin-left: 0%;
+      }
+      .gallery__text-small {
+        font-size: 14px;
+        padding-top: 1.2rem;
+        padding-bottom: 1.5rem;
+        padding-right: 15%;
+        padding-left: 0.3rem;
+      }
+      .mobile-br {
+        display: none;
+      }
+      .social-icons {
+        padding-top: 1.2rem;
+        padding-bottom: 1rem;
+        padding-right: 155px;
+      }
+      .facebook {
+        padding-right: 2rem;
+      }
+      .instagram {
+        padding-right: 2rem;
+      }
+    }
+  
+  
+    
 
     @media (max-width: 375px) {
       .gallery__top {

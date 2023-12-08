@@ -324,6 +324,57 @@
     }
    }
 
+   @media (max-width: 430px) {
+    .css-button2 {
+      margin-left: 0;
+    }
+    .main {
+      flex-direction: column;
+      justify-content: normal;
+      height: 34rem;
+      gap: 0;
+    }
+    h1.main-header {
+      padding-left: 1rem;
+      padding-top: 4rem;
+      font-size: 2.5rem;
+    }
+    br {
+      display: none;
+    }
+    .postal-address {
+      padding-left: 1rem;
+      padding-top: 0rem;
+    }
+
+    h2.street-name {
+      padding-top: 1.5rem;
+      font-size: 30px;
+    }
+    .address,.text {
+      font-size: 1.125rem;
+    }
+    .mobile-br{
+      display:block;
+      }
+    .footer-wrapper {
+      flex-direction: column;
+      padding: 2rem 2rem;
+    }
+    .gallery__text-small {
+      font-size: 14px;
+      padding-top: 1.2rem;
+      padding-bottom: 1.5rem;
+      padding-right: 15%;
+    }
+    img.facebook {
+      padding-right: 2rem;
+    }
+    img.instagram {
+      padding-right: 2rem;
+    }
+   }
+
    @media (max-width: 375px) {
     .css-button2 {
       margin-left: 0;
