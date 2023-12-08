@@ -359,8 +359,9 @@
       }
     .footer-wrapper {
       flex-direction: column;
-      padding: 2rem 2rem;
+      padding: 2rem 1rem;
     }
+   
     .gallery__text-small {
       font-size: 14px;
       padding-top: 1.2rem;
