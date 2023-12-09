@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Art Gallery Site-Repo](https://github.com/codey-sudo/modern-art-gallery.git)
+- Live Site URL: [Art Gallery Site-Github Pages](https://codey-sudo.github.io/modern-art-gallery/)
 
 ## My process
 
