@@ -77,11 +77,11 @@ In the future, I want to focus on CSS Grid, relative values and units, and more 
 
 ### Useful resources
 
-- [resource 1](https://www.layoutit.com/) - This helped me for building the css grid.
-- [resource 2](https://getcssscan.com/css-buttons-examples) - This site really helped me with getting some button styling inspiration. I did some modification for my buttons for this project. 
-- [resource 3](https://chat.openai.com/) 
-- [resource 4](https://www.youtube.com/@KevinPowell)
-- [resource 5](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [resource 1](https://www.layoutit.com/) This helped me for building the css grid.
+- [resource 2](https://getcssscan.com/css-buttons-examples) This site really helped me with getting some button styling inspiration. I did some modification for my buttons for this project. 
+- [resource 3](https://chat.openai.com/) ChatGPT was used for some coding sections. My approach was to use ChatGPT for short code snippets and examples as well as explaining concepts. 
+- [resource 4](https://www.youtube.com/@KevinPowell) Kevin Powell's YouTube channel is an awesome resource, enjoyed digging down to get specific clarification but also perusing.
+- [resource 5](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) Since I used mostly Flexbox, this graphic chart helped me internalize the behaviour of Flexbox. 
 
 
 ## Author
@@ -90,3 +90,6 @@ In the future, I want to focus on CSS Grid, relative values and units, and more 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
+## Acknowledgements
+
+I'm very grateful for all these resources maintained by these experts and willing to share their knowledge. 
