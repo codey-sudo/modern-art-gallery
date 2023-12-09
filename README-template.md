@@ -41,13 +41,18 @@ Users should be able to:
 
 ## My process
 
+
+
+
+
 ### Built with
 
-- Semantic HTML5 markup
+- HTML
 - CSS custom properties
 - Flexbox
 - CSS Grid
 - fontawesome
+- Google fonts
 - Leaflet.js
 - [Styled Components](https://styled-components.com/) - For styles
 - BEM CSS (attempted this method of organizing my code but it was hard to follow. So naming convention is half BEM and half normal.)
@@ -56,33 +61,19 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I realized that working on this project, a little more planning out the layout will help. I tried using CSS Grid and that didn't go well. From that I see some deficits my learning and for areas of improvement. Next project I'll be getting a better handle on CSS Grid. 
 
-To see how you can add code snippets, see below:
+For the photo grid on the homepage I scrapped some code and re-coded the parts to make it more manageable for controlling a flexible layout. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+Lastly, I learned quite a bit about using relative units and viewport widths and heights. This is my first responsive web project, it was a challenge to manage alignment. At first it felt like a game of Whacka-a-mole. I'd be making adjustments based on different screen sizes for one section, only realizing having to go back and make adjustments in an area I thought I had completed, needed refinements.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+But I loved every minute of it. 
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In the future, I want to focus on CSS Grid, relative values and units, and more integrations and using javascript. 
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
@@ -91,14 +82,12 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Chris Kowalczyk](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
