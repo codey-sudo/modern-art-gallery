@@ -24,14 +24,14 @@ This is a solution to the [Art gallery website challenge on Frontend Mentor](htt
 
 Users should be able to:
 
-- View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements throughout the site
-- **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin
+- View the optimal layout for each page depending on their device's screen size.
+- See hover states for all interactive elements throughout the site.
+- **Bonus**: Use [Leaflet JS](https://leafletjs.com/) to create an interactive location map with custom location pin.
+
 
 ### Screenshot
 
 ![](!Frontend-Mentor-Art-gallery-website (2)](https://github.com/codey-sudo/modern-art-gallery/assets/61400943/899c6d40-cb4c-44b6-b9d8-d002d97ca6d1))
-
 
 
 ### Links
@@ -39,10 +39,10 @@ Users should be able to:
 - Solution URL: [Art Gallery Site-Repo](https://github.com/codey-sudo/modern-art-gallery.git)
 - Live Site URL: [Art Gallery Site-Github Pages](https://codey-sudo.github.io/modern-art-gallery/)
 
+
 ## My process
 
 I used vanilla CSS and HTML with an opensource javascript framework called leaflet.js. 
-
 
 
 ### Built with
@@ -56,7 +56,6 @@ I used vanilla CSS and HTML with an opensource javascript framework called leafl
 - Leaflet.js
 - [Styled Components](https://styled-components.com/) - For styles
 - BEM CSS (attempted this method of organizing my code but it was hard to follow. So naming convention is half BEM and half normal.)
-
 
 
 ### What I learned
@@ -89,6 +88,7 @@ In the future, I want to focus on CSS Grid, relative values and units, and more 
 - Website - [Chris Kowalczyk](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
 
 ## Acknowledgements
 
