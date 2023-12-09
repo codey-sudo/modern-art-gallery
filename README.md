@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](!Frontend-Mentor-Art-gallery-website (2)](https://github.com/codey-sudo/modern-art-gallery/assets/61400943/899c6d40-cb4c-44b6-b9d8-d002d97ca6d1))
+![Frontend-Mentor-Art-gallery-website (2)](https://github.com/codey-sudo/modern-art-gallery/assets/61400943/b2400e5b-8c48-42db-a277-05e1da768f6d)
 
 
 ### Links
