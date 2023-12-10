@@ -42,7 +42,7 @@ Users should be able to:
 
 ## My process
 
-I used vanilla CSS and HTML with an opensource javascript framework called leaflet.js. 
+I used vanilla CSS and HTML with an opensource javascript framework called leaflet.js. A desktop-first approach was used.
 
 
 ### Built with
@@ -71,7 +71,7 @@ But I loved every minute of it.
 
 ### Continued development
 
-In the future, I want to focus on CSS Grid, relative values and units, and more integrations and using javascript. Lastly, I'd make my HTML less convoluted, I will try to avoid nesting elements, all the time. 
+In the future, I want to focus on CSS Grid, relative values and units, and more integrations and using javascript. Lastly, I'd make my HTML less convoluted, I will try to avoid nesting elements, all the time and using a mobile-first approach. 
 
 
 ### Useful resources
